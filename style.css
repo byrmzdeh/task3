@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+section{
+    width: 60%;
+    height: 90vh;
+    background-color: rgb(0, 0, 0);
+    margin: 30px auto;
+    border: 1px solid gray;
+}
+section .img img{
+    width: 100%;
+    height: 72vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    
+}
+section .img .fa-chevron-left{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    font-size: 50px;
+}
+section .img .fa-chevron-right{
+    color: white;
+    position: absolute;
+    top: 300px;
+    right: 400px;
+    font-size: 50px;
+}
+section .img .time{
+    width: 220px;
+    height: 40px;
+    color: white;
+    background-color: rgb(18, 116, 116);
+    padding: 10px 13px;
+    position: absolute;
+    font-size: 24px;
+    bottom: 178px;
+    left: 307px;
+    
+}
+section .write p{
+    font-family: serif;
+    font-size: 30px;
+    padding: 33px;
+    color: white;
+}
